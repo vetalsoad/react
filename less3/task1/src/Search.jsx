@@ -1,4 +1,4 @@
-export const SearchField = (props) => {
+export const Search = (props) => {
   console.log(props);
   return (
     <div className='search'>
