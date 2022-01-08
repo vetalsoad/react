@@ -1,3 +1,6 @@
+import React from "react";
+import "./search.scss";
+
 const Search = (props) => {
   console.log(props);
   return (
