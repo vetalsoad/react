@@ -4,7 +4,7 @@ import './button.scss'
 const GoodButton = () => {
   return(<button 
     className='fancy-button'
-    onClick={() => alert('Good job!')}
+    onClick={() => alert('Good job!         ')}
   >
     Click me!
   </button>
