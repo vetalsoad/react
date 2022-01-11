@@ -4,10 +4,6 @@ import './profile.scss';
 
 const formatData = date => moment(date).format('DD MMM YY');
 
-/* const getAge = birthDate => {
-  const age = new Date().getTime() - birthDate.getTime();
-  return new Date(age).getFullYear() - 1970;
-} */
 
 const Profile = (props) => {
   return (
