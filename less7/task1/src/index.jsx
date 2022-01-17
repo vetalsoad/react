@@ -11,4 +11,4 @@ const numbers = [1, 2, 3, 4, 5];
 const numbersElems = numbers.map((number) => <li>{number}</li>);
 const element = <ul>{numbersElems}</ul>;
 
-ReactDOM.render(<NumberList numbers={numbers} />, rootElement);
+ReactDOM.render(<NumbersList numbers={numbers} />, rootElement);
