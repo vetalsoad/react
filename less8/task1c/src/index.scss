@@ -14,15 +14,21 @@ body {
 }
 
 .btn {
-  height: 32px;
+  height: 55px;
+  margin: 4px;
   color: #fff;
-  border-radius: 8px;
-  width: 64px;
+  border-radius: 12px;
+  width: 123px;
   outline: none;
   border: none;
   text-transform: uppercase;
   padding: 8px;
   cursor: pointer;
   background-color: green;
+}
+
+.number {
+  font-size: 88px;
+  text-align: center;
 }
 
