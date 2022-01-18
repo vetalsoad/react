@@ -9,7 +9,7 @@ class Life extends Component {
   }
 
   componentDidMount() {
-    console.log("componentDidMount: API calls, subscription");
+    console.log("componentDidMount: API calls, subscriptions");
   }
 
   shouldComponentUpdate(nextProps, nextState) {
