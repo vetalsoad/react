@@ -9,7 +9,7 @@ class Life extends Component {
   }
 
   componentDidMount() {
-    console.log("componentDidMount: API calls");
+    console.log("componentDidMount: API calls, subscription");
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -17,8 +17,8 @@ class Life extends Component {
     return nextProps.namber % 2;
   }
 
-  componentDidUpdate(prewProps, prewState) {
-    console.log("componentDidUpdate(prewProps, prewState): some updates based on new props");
+  componentDidUpdate(prevProps, prevState) {
+    console.log("componentDidUpdate(prevProps, prevState): some updates based on new props");
   }
 
   componentWillUnmount() {
