@@ -3,6 +3,7 @@ import Transaction from './Transaction';
 
 
 const TransactionsList = ({ transactions }) => {
+  console.log(transactions);
   return(
     <ul className="transactions">
       {transactions.map(transaction => (
