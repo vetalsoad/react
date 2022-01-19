@@ -31,7 +31,7 @@ class ConnectionStatus extends Component {
     return (
       <div
         className={`status ${
-          this.state.status === "offline" ? " status__offline" : ""
+          this.state.status === "offline" ? " status_offline" : ""
         }`}
       >
         {this.state.status}
