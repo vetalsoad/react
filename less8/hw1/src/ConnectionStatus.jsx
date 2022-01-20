@@ -19,13 +19,13 @@ class ConnectionStatus extends Component {
     this.setState({
       status: "online",
     });
-  }
+  };
 
   handleOffline = () => {
     this.setState({
       status: "offline",
     });
-  }
+  };
 
   render() {
     return (
