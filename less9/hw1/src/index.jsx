@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
-import UserLists from './UserLists';
+import UsersLists from './UsersLists';
 
 const users = [
   { id: 1, name: "John", age: 18 },
