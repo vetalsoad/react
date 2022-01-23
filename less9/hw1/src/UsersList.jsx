@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import User from './User';
 import Filter from './Filter';
 
-class UsersLists extends Component {
+class UsersList extends Component {
 
   state = {
     value: '',
@@ -34,4 +34,4 @@ class UsersLists extends Component {
   }
 };
 
-export default UsersLists;
+export default UsersList;
