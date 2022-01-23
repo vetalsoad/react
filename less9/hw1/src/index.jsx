@@ -17,4 +17,4 @@ const users = [
 
 const rootElement = document.querySelector("#root");
 
-ReactDOM.render(<UserLists users={users}/>, rootElement);
+ReactDOM.render(<UsersLists users={users}/>, rootElement);

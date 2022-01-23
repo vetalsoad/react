@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Filter = props => {
+  console.log(props);
   return (
     <div className="filter">
       <span className="filter__count">{props.count}</span>
