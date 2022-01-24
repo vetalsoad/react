@@ -58,7 +58,7 @@ class Game extends Component {
 
     let status;
     if (winner) {
-      status = "Выиграл " + winner;
+      status = `Winner: ${winner}`;
     } else {
       status = "Следующий ход: " + (this.state.xIsNext ? "X" : "O");
     }
