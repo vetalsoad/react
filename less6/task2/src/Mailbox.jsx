@@ -12,6 +12,4 @@ const Mailbox = ({ unreadMessages }) => {
   );
 };
 
-
-
 export default Mailbox;
