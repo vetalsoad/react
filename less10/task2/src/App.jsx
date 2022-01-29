@@ -5,8 +5,8 @@ import Profile from "./Profile";
 class Page extends Component {
   state = {
     userData: {
-      firstName: "Jonny",
-      lastName: "Depp",
+      firstName: "John",
+      lastName: "Doe",
     },
   };
 
