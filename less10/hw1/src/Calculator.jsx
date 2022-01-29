@@ -5,7 +5,14 @@ import React, { Component } from "react";
 class Calculator extends Component {
   render(){
     return (
-      <div></div>
+      <fieldset>
+        <legend>Введите температуру в градусах Цельсия:</legend>
+        <input 
+          value={temperature}
+          onChange={this.handleChange}
+        />
+        <BoilingVerdict celsius={temperature} />
+      </fieldset>
     )
   }
 }
