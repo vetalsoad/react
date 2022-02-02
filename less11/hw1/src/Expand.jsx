@@ -39,7 +39,7 @@ class Expand extends Component {
     );
   }
 }
-Expand.PropTypes = {
+Expand.propTypes = {
   title: PropTypes.string,
   children: PropTypes.element.isRequired,
 };
