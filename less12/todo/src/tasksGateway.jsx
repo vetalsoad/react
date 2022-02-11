@@ -5,7 +5,7 @@ export const createTask = (taskData) => {
   return fetch(baseUrl, {
     method: "POST",
     headers: {
-      "Content-Type": "application/json;utc-8",
+      "Content-Type": "application/json",
     },
     body: JSON.stringify(taskData),
   }).then((response) => {
